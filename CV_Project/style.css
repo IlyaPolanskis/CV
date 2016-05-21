@@ -1,0 +1,57 @@
+header {
+	margin-top: 40px;
+}
+
+h2 {
+	margin-bottom: 30px;
+}
+
+
+
+.row {
+	width: 95%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+.well {
+	display: block;
+	margin: auto;
+	height:90%;
+	width: 90%;
+}
+
+#profile_photo {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.about {
+	float: left;
+	padding-left: 10px;
+}
+
+.info {
+	list-style: none;
+	display: inline;
+	font-size: 130%;
+}
+
+.icon {
+	display: inline;
+	margin-right: 15px;
+	font-size: 130%;
+}
+
+.chart {
+	height: 240px;
+	overflow: none;
+}
+
+.cv {
+	padding: 0;
+	margin: 50px auto;
+}

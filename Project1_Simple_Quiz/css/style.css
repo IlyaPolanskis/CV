@@ -1,0 +1,11 @@
+input {
+	display: inline-block;
+	float: left;
+}
+
+.row {
+}
+
+.container {
+	margin-left: 30%;
+}

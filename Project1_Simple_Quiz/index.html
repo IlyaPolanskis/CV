@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- JQuerry -->
+	<script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<title>Learn Javascript Quiz</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header id="header" class="">
+			<h1>Simple JS QUIZ!</h1>
+			<p>Test yourself in <strong>JS fundamentals</strong></p>
+		</header><!-- /header -->
+		<div class="row" id="results"></div>
+		<form name="quizForm" onsubmit="return submitAnswers();"">
+			<div class="row">
+				<h3>5 + 5 = ?</h3>
+				<input type="radio" name="question_1" value="a" id="question_1a">a. 6  <br>
+				<input type="radio" name="question_1" value="b" id="question_1b">b. 10 <br>
+				<input type="radio" name="question_1" value="c" id="question_1c">c. 34 <br>
+				<input type="radio" name="question_1" value="d" id="question_1d">d. 2  <br>
+			</div>
+			<div class="row">
+				<h3>5 + 1 = ?</h3>
+				<input type="radio" name="question_2" value="a" id="question_2a">a. 6  <br>
+				<input type="radio" name="question_2" value="b" id="question_2b">b. 10 <br>
+				<input type="radio" name="question_2" value="c" id="question_2c">c. 34 <br>
+				<input type="radio" name="question_2" value="d" id="question_2d">d. 2  <br>
+			</div>
+			<div class="row">
+				<h3>5 * 2 = ?</h3>
+				<input type="radio" name="question_3" value="a" id="question_3a">a. 6  <br>
+				<input type="radio" name="question_3" value="b" id="question_3b">b. 10 <br>
+				<input type="radio" name="question_3" value="c" id="question_3c">c. 34 <br>
+				<input type="radio" name="question_3" value="d" id="question_3d">d. 2  <br>
+			</div>
+			<div class="row">
+				<h3>1 + 1 = ?</h3>
+				<input type="radio" name="question_4" value="a" id="question_4a">a. 6  <br>
+				<input type="radio" name="question_4" value="b" id="question_4b">b. 10 <br>
+				<input type="radio" name="question_4" value="c" id="question_4c">c. 34 <br>
+				<input type="radio" name="question_4" value="d" id="question_4d">d. 2  <br>
+			</div>
+			<div class="row">	
+				<h3>56 - 22 = ?</h3>
+				<input type="radio" name="question_5" value="a" id="question_5a">a. 6  <br>
+				<input type="radio" name="question_5" value="b" id="question_5b">b. 10 <br>
+				<input type="radio" name="question_5" value="c" id="question_5c">c. 34 <br>
+				<input type="radio" name="question_5" value="d" id="question_5d">d. 2  <br>
+			</div>
+			
+			<div class="row">
+				<input class="btn big-btn btn-primary" type="submit" name="" value="submit answers">	
+			</div>
+			
+		</form>
+
+	</div>
+
+</body>
+</html>
